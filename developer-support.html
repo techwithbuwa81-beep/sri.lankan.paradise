@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Developer & Supporter | Sri Lanka Paradise</title>
+    <link rel="stylesheet" href="styles.css">
+      <link rel="icon" type="png" href="logo (2).png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <script>
+        // Initialize theme immediately to prevent flash
+        (function() {
+            const savedTheme = localStorage.getItem('theme') || 'light';
+            document.documentElement.setAttribute('data-theme', savedTheme);
+        })();
+    </script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-icon">🏝️</span>
+                <span class="logo-text">Sri Lanka Paradise</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="index.html#home">Home</a></li>
+                <li><a href="index.html#destinations">Destinations</a></li>
+                <li><a href="index.html#gallery">Gallery</a></li>
+                <li><a href="index.html#videos">Videos</a></li>
+                <li><a href="index.html#about">About</a></li>
+                <li><a href="developer-support.html">Developer</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+                    <span class="theme-toggle-icon moon-icon">🌙</span>
+                    <span class="theme-toggle-icon sun-icon">☀️</span>
+                </button>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Developer & Supporter Hero Section -->
+    <section class="developer-hero">
+        <div class="hero-background">
+            <div class="floating-shapes">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+                <div class="shape shape-3"></div>
+                <div class="shape shape-4"></div>
+            </div>
+        </div>
+        <div class="hero-content">
+            <h1 class="hero-title">
+                <span class="title-line">Developer &</span>
+                <span class="title-line">Supporter</span>
+            </h1>
+            <p class="hero-subtitle">Building Sri Lanka Paradise Together</p>
+            <p class="hero-description">Join us in showcasing the beauty of Sri Lanka to the world</p>
+        </div>
+    </section>
+
+    <!-- Developer Section -->
+    <section class="developer-section">
+        <div class="container">
+            <div class="developer-content">
+                <div class="developer-info">
+                    <h2 class="section-title">About the Developer</h2>
+                    <div class="developer-card">
+                        <div class="developer-avatar">
+                            <div class="avatar-icon"><img src="me.png"></div>
+                        </div>
+                        <h3>Project Creator</h3>
+                        <p>Welcome to Sri Lanka Paradise! This website was created with passion and dedication to showcase the incredible beauty, culture, and heritage of Sri Lanka. Our goal is to inspire travelers from around the world to discover this amazing island nation.</p>
+                        <p>This project combines modern web technologies with stunning visuals to create an immersive experience. Every destination, every image, and every story is carefully curated to give visitors a true sense of what makes Sri Lanka special.</p>
+                    </div>
+                </div>
+
+                <div class="tech-stack">
+                    <h2 class="section-title">Technology Stack</h2>
+                    <div class="tech-grid">
+                        <div class="tech-card">
+                            <div class="tech-icon">🌐</div>
+                            <h4>HTML5</h4>
+                            <p>Semantic markup and structure</p>
+                        </div>
+                        <div class="tech-card">
+                            <div class="tech-icon">🎨</div>
+                            <h4>CSS3</h4>
+                            <p>Modern styling and animations</p>
+                        </div>
+                        <div class="tech-card">
+                            <div class="tech-icon">⚡</div>
+                            <h4>JavaScript</h4>
+                            <p>Interactive features and functionality</p>
+                        </div>
+                        <div class="tech-card">
+                            <div class="tech-icon">🔐</div>
+                            <h4>Google Sign-In</h4>
+                            <p>Secure user authentication</p>
+                        </div>
+                        <div class="tech-card">
+                            <div class="tech-icon">📱</div>
+                            <h4>Responsive Design</h4>
+                            <p>Mobile-first approach</p>
+                        </div>
+                        <div class="tech-card">
+                            <div class="tech-icon">✨</div>
+                            <h4>Modern UI/UX</h4>
+                            <p>Beautiful and intuitive interface</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Supporter Section -->
+    <section class="supporter-section">
+        <div class="container">
+            <h2 class="section-title">Become a Supporter</h2>
+            <p class="section-subtitle">Help us grow and improve Sri Lanka Paradise</p>
+            
+            <div class="supporter-grid">
+                <div class="supporter-card">
+                    <div class="card-icon">💡</div>
+                    <h3>Share Feedback</h3>
+                    <p>Have suggestions for improvements? We'd love to hear from you! Your feedback helps us make the website better for everyone.</p>
+                    <div class="contact-info">
+                        <p><strong>Email:</strong> developer@srilankaparadise.com</p>
+                    </div>
+                </div>
+
+                <div class="supporter-card">
+                    <div class="card-icon">📸</div>
+                    <h3>Contribute Content</h3>
+                    <p>Do you have amazing photos or videos of Sri Lanka? Share them with us and help showcase the beauty of this incredible island.</p>
+                    <div class="contact-info">
+                        <p><strong>Email:</strong> content@srilankaparadise.com</p>
+                    </div>
+                </div>
+
+                <div class="supporter-card">
+                    <div class="card-icon">🌍</div>
+                    <h3>Spread the Word</h3>
+                    <p>Help others discover Sri Lanka by sharing this website with friends, family, and fellow travelers. Every share helps!</p>
+                    <div class="social-share">
+                        <button class="share-btn" onclick="shareOnSocial('facebook')">Facebook</button>
+                        <button class="share-btn" onclick="shareOnSocial('twitter')">Twitter</button>
+                        <button class="share-btn" onclick="shareOnSocial('linkedin')">LinkedIn</button>
+                    </div>
+                </div>
+
+                <div class="supporter-card">
+                    <div class="card-icon">🤝</div>
+                    <h3>Partner With Us</h3>
+                    <p>Are you a tourism business, hotel, or travel agency in Sri Lanka? Let's collaborate to promote sustainable tourism.</p>
+                    <div class="contact-info">
+                        <p><strong>Email:</strong> partners@srilankaparadise.com</p>
+                    </div>
+                </div>
+
+                <div class="supporter-card">
+                    <div class="card-icon">🐛</div>
+                    <h3>Report Issues</h3>
+                    <p>Found a bug or technical issue? Please report it so we can fix it quickly and improve the user experience.</p>
+                    <div class="contact-info">
+                        <p><strong>Email:</strong> support@srilankaparadise.com</p>
+                    </div>
+                </div>
+
+                <div class="supporter-card">
+                    <div class="card-icon">⭐</div>
+                    <h3>Feature Requests</h3>
+                    <p>Have an idea for a new feature? We're always looking to enhance the website with new functionality and content.</p>
+                    <div class="contact-info">
+                        <p><strong>Email:</strong> features@srilankaparadise.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="contact-section">
+        <div class="container">
+            <h2 class="section-title">Get in Touch</h2>
+            <p class="section-subtitle">We'd love to hear from you</p>
+            
+            <div class="contact-grid">
+                <div class="contact-card">
+                    <h3>General Inquiries</h3>
+                    <p>Email: info@ravindurashmika.com</p>
+                    <p>Phone: +94 75 097 5181</p>
+                </div>
+                <div class="contact-card">
+                    <h3>Technical Support</h3>
+                    <p>Email: support@srilankaparadise.com</p>
+                    <p>Response Time: 24-48 hours</p>
+                </div>
+                <div class="contact-card">
+                    <h3>Business Partnerships</h3>
+                    <p>Email: partners@The_Cadmium.com</p>
+                    <p>Let's work together!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>Sri Lanka Paradise</h3>
+                <p>Your gateway to discovering the beauty of Sri Lanka</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#destinations">Destinations</a></li>
+                    <li><a href="#gallery">Gallery</a></li>
+                    <li><a href="#videos">Videos</a></li>
+                    <li><a href="developer-support.html">Developer</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Contact</h4>
+                <p>Email: info@ITZ_BUWA.com</p>
+                <p>Phone: +94 71 328 2760</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2024 Sri Lanka Paradise. All rights reserved.</p>
+        </div>
+    </div>
+</footer>
+
+    <script>
+        // Navigation functionality
+        const hamburger = document.querySelector('.hamburger');
+        const navMenu = document.querySelector('.nav-menu');
+        
+        hamburger.addEventListener('click', () => {
+            navMenu.classList.toggle('active');
+        });
+
+        // Close menu when clicking on links
+        document.querySelectorAll('.nav-menu a').forEach(link => {
+            link.addEventListener('click', () => {
+                navMenu.classList.remove('active');
+            });
+        });
+
+        // Share functionality
+        function shareOnSocial(platform) {
+            const url = encodeURIComponent(window.location.href);
+            const title = encodeURIComponent('Discover Sri Lanka - Paradise Island');
+            
+            let shareUrl = '';
+            
+            switch(platform) {
+                case 'facebook':
+                    shareUrl = `https://www.facebook.com/sharer/sharer.php?u=${url}`;
+                    break;
+                case 'twitter':
+                    shareUrl = `https://twitter.com/intent/tweet?url=${url}&text=${title}`;
+                    break;
+                case 'linkedin':
+                    shareUrl = `https://www.linkedin.com/sharing/share-offsite/?url=${url}`;
+                    break;
+            }
+            
+            if (shareUrl) {
+                window.open(shareUrl, '_blank', 'width=600,height=400');
+            }
+        }
+
+        // Theme Toggle Functionality
+        function setupThemeToggle() {
+            const themeToggle = document.getElementById('theme-toggle');
+            const html = document.documentElement;
+            
+            // Get saved theme or default to light
+            const savedTheme = localStorage.getItem('theme') || 'light';
+            html.setAttribute('data-theme', savedTheme);
+            
+            // Theme toggle click handler
+            if (themeToggle) {
+                themeToggle.addEventListener('click', () => {
+                    const currentTheme = html.getAttribute('data-theme');
+                    const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+                    
+                    html.setAttribute('data-theme', newTheme);
+                    localStorage.setItem('theme', newTheme);
+                });
+            }
+        }
+
+        // Initialize theme on page load
+        setupThemeToggle();
+
+        // Scroll animations
+        const observerOptions = {
+            threshold: 0.1,
+            rootMargin: '0px 0px -100px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.style.opacity = '1';
+                    entry.target.style.transform = 'translateY(0)';
+                }
+            });
+        }, observerOptions);
+
+        document.querySelectorAll('.supporter-card, .tech-card, .contact-card').forEach(card => {
+            card.style.opacity = '0';
+            card.style.transform = 'translateY(30px)';
+            card.style.transition = 'all 0.6s ease-out';
+            observer.observe(card);
+        });
+    </script>
+</body>
+</html>

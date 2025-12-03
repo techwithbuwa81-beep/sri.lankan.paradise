@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sri Lanka - Paradise Island | Tourist Destinations</title>
+    <link rel="stylesheet" href="styles.css">
+      <link rel="icon" type="png" href="logo (2).png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+    <script src="https://accounts.google.com/gsi/client" async defer></script>
+    <script>
+        // Initialize theme immediately to prevent flash
+        (function() {
+            const savedTheme = localStorage.getItem('theme') || 'light';
+            document.documentElement.setAttribute('data-theme', savedTheme);
+        })();
+    </script>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-icon">🏝️</span>
+                <span class="logo-text">Sri Lanka Paradise</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#destinations">Destinations</a></li>
+                <li><a href="locations.html">Locations</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#videos">Videos</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="developer-support.html">Developer</a></li>
+            </ul>
+            <div class="nav-actions">
+                <button class="theme-toggle" id="theme-toggle" aria-label="Toggle theme">
+                    <span class="theme-toggle-icon moon-icon">🌙</span>
+                    <span class="theme-toggle-icon sun-icon">☀️</span>
+                </button>
+                <div id="google-login-container" class="google-login-container"></div>
+                <div id="user-profile" class="user-profile" style="display: none;">
+                    <img id="user-avatar" src="" alt="User" class="user-avatar">
+                    <span id="user-name" class="user-name"></span>
+                    <button id="logout-btn" class="logout-btn">Logout</button>
+                </div>
+            </div>
+            <div class="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+    </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="floating-shapes">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+                <div class="shape shape-3"></div>
+                <div class="shape shape-4"></div>
+      </div>
+        </div>
+        <div class="hero-content">
+            <h1 class="hero-title">
+                <span class="title-line">Discover</span>
+                <span class="title-line">Sri Lanka</span>
+            </h1>
+            <p class="hero-subtitle">The Pearl of the Indian Ocean</p>
+            <p class="hero-description">Explore ancient cities, pristine beaches, misty mountains, and rich wildlife</p>
+            <a href="#destinations" class="cta-button">Explore Now</a>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse"></div>
+      </div>
+    </section>
+
+
+    <!-- Destinations Section -->
+    <section id="destinations" class="destinations">
+        <div class="container">
+            <h2 class="section-title">Must-Visit Destinations</h2>
+            <p class="section-subtitle">Discover the beauty and heritage of Sri Lanka</p>
+            
+            <div class="destinations-grid" id="destinationsGrid">
+                <!-- Destinations will be dynamically loaded here -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="gallery" class="gallery">
+        <div class="container">
+            <h2 class="section-title">
+Sri Lankan Culture</h2>
+            <p class="section-subtitle">Capturing the essence of Sri Lanka</p>
+            <div class="gallery-grid" id="galleryGrid">
+                <!-- Gallery items will be dynamically loaded -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Videos Section -->
+    <section id="videos" class="videos">
+        <div class="container">
+            <h2 class="section-title">Experience Sri Lanka</h2>
+            <p class="section-subtitle">Watch the beauty come alive</p>
+            <div class="videos-grid" id="videosGrid">
+                <!-- Videos will be dynamically loaded -->
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 class="section-title">About Sri Lanka</h2>
+                    <p>Sri Lanka, officially the Democratic Socialist Republic of Sri Lanka, is an island country in South Asia. Known as the "Pearl of the Indian Ocean," it offers diverse landscapes from golden beaches to misty mountains, ancient cities to modern metropolises.</p>
+                    <p>The country is renowned for its rich biodiversity, UNESCO World Heritage Sites, tea plantations, and warm hospitality. Whether you seek adventure, relaxation, culture, or wildlife, Sri Lanka has something for every traveler.</p>
+                    <div class="stats-grid">
+                        <div class="stat-card">
+                            <div class="stat-number">8</div>
+                            <div class="stat-label">UNESCO Sites</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number">26</div>
+                            <div class="stat-label">National Parks</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number">1,340km</div>
+                            <div class="stat-label">Coastline</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number">2,500+</div>
+                            <div class="stat-label">Years of History</div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="image-3d">
+                        <div class="image-front"></div>
+                        <div class="image-back"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h3>Sri Lanka Paradise</h3>
+                    <p>Your gateway to discovering the beauty of Sri Lanka</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#destinations">Destinations</a></li>
+                        <li><a href="#gallery">Gallery</a></li>
+                        <li><a href="#videos">Videos</a></li>
+                        <li><a href="developer-support.html">Developer</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Contact</h4>
+                    <p>Email: info@ITZ_BUWA.com</p>
+                    <p>Phone: +94 71 328 2760</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Sri Lanka Paradise. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Destination Modal -->
+    <div id="destinationModal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <div id="modalBody"></div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
